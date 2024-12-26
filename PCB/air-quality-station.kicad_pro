@@ -58,7 +58,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|52430000|72970000|bfb9b243-7266-46f5-949b-80cf23bd0ffe|045bd7b4-45a0-460a-b522-6aa22009e70d",
+        "hole_clearance|52430000|72970000|bfb9b243-7266-46f5-949b-80cf23bd0ffe|eca2a543-5b46-4eda-aa74-575c0aa28454",
+        "hole_clearance|52430000|79070000|dd9947f7-a857-4825-a1d8-2bb9ef887a0a|29798d8b-2e0f-4c44-9403-2c428fe7ba73",
+        "hole_clearance|52430000|79070000|dd9947f7-a857-4825-a1d8-2bb9ef887a0a|6d010d92-f8d8-47a3-b293-03ebe866bacc",
+        "silk_edge_clearance|51580000|49500000|5a343db4-2d4e-49b4-a427-6b74a7d319d2|1a44a82f-7c2c-4296-b35d-7807ec9a05c7",
+        "silk_edge_clearance|64780000|49500000|5a343db4-2d4e-49b4-a427-6b74a7d319d2|3ebf3586-03bf-4744-9be6-03b12bcaf09f",
+        "silk_over_copper|92150000|85575000|49b06aba-c8ea-4990-8023-8aad9f44581d|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|53010000|63125000|a61b9ae9-8ba3-4710-8413-4389b29088cf|57a65709-1b38-4ab5-8d2e-585c6ffbfd34",
+        "silk_overlap|53010000|64875000|1ccbe153-95c3-4cd0-9f91-996cf8738d83|57a65709-1b38-4ab5-8d2e-585c6ffbfd34",
+        "silk_overlap|53596359|61620000|42150bfc-72ba-4ce3-82d5-88befbb18b56|edc3973d-f7b9-4d4c-b01a-cd150712692a",
+        "silk_overlap|53596359|62380000|5415d89d-487b-49e7-9bb0-5297ed786547|edc3973d-f7b9-4d4c-b01a-cd150712692a",
+        "silk_overlap|53903641|61620000|42150bfc-72ba-4ce3-82d5-88befbb18b56|e96aed55-b570-47fe-9b11-7a857184e8ef",
+        "silk_overlap|53903641|62380000|5415d89d-487b-49e7-9bb0-5297ed786547|e96aed55-b570-47fe-9b11-7a857184e8ef",
+        "silk_overlap|54510000|63125000|a61b9ae9-8ba3-4710-8413-4389b29088cf|e4bac2b8-1706-497d-b571-f41bf4f48b5f",
+        "silk_overlap|54510000|64875000|1ccbe153-95c3-4cd0-9f91-996cf8738d83|e4bac2b8-1706-497d-b571-f41bf4f48b5f",
+        "silk_overlap|90050000|85575000|766bae72-8ffe-4ff0-8cdf-af400216c6b6|425019b6-3638-466b-bafa-d1701b3bdbdf",
+        "silk_overlap|92150000|85575000|49b06aba-c8ea-4990-8023-8aad9f44581d|40c93928-4fb8-46f5-a14c-09118c8d5894",
+        "silk_overlap|92150000|87875000|f53cd9f4-8c2a-4eed-a36e-e1a9f20c9366|1a7052fd-668f-4807-af30-8bc1581f0c43"
+      ],
       "meta": {
         "version": 2
       },
@@ -212,7 +231,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -461,7 +480,58 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2672,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2672,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -472,7 +542,44 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3V3*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+5V*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "SCL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "IO*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "UART*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VBAT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -577,7 +684,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/vactomas/Nextcloud/Projects/air-quality-station/PCB/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
