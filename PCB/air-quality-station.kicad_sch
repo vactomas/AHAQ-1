@@ -5074,7 +5074,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:TLV73333PDBV"
+		(symbol "Regulator_Linear:TLV75533PDBV"
 			(pin_names
 				(offset 0.254)
 			)
@@ -5089,7 +5089,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV73333PDBV"
+			(property "Value" "TLV75533PDBV"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -5108,7 +5108,16 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5117,16 +5126,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "300mA LDO Regulator Fixed Positive Capacitor-Free"
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5144,7 +5144,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV73333PDBV_0_1"
+			(symbol "TLV75533PDBV_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -5157,7 +5157,7 @@
 					)
 				)
 			)
-			(symbol "TLV73333PDBV_1_1"
+			(symbol "TLV75533PDBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -6461,12 +6461,6 @@
 		(uuid "19a1587d-c668-40bb-b862-d5adffdf8b70")
 	)
 	(junction
-		(at 176.53 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b7d2081-9df0-42b2-b6fa-294df2fcfa00")
-	)
-	(junction
 		(at 72.39 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6489,12 +6483,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2256bd40-b5b7-400f-ae4e-443ddcbd52fd")
-	)
-	(junction
-		(at 176.53 278.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23029959-009f-4364-9d0a-e6daec182f7f")
 	)
 	(junction
 		(at 377.19 208.28)
@@ -7293,16 +7281,6 @@
 			(type default)
 		)
 		(uuid "39f56d6e-7bb1-47d4-a3bd-5a6690be98bc")
-	)
-	(wire
-		(pts
-			(xy 171.45 265.43) (xy 171.45 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a05c9a0-0338-4fa5-8731-d487ddfaa811")
 	)
 	(polyline
 		(pts
@@ -8346,16 +8324,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 273.05) (xy 171.45 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8675f40-a4a7-4da1-9778-95bb9b4d2734")
-	)
-	(wire
-		(pts
 			(xy 367.03 228.6) (xy 367.03 229.87)
 		)
 		(stroke
@@ -8403,16 +8371,6 @@
 			(type default)
 		)
 		(uuid "bede090a-9cd4-475a-ad77-7e8115b65a51")
-	)
-	(wire
-		(pts
-			(xy 171.45 261.62) (xy 176.53 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc534b2b-e6fb-4722-a7a0-b0f837b00fe9")
 	)
 	(wire
 		(pts
@@ -8483,16 +8441,6 @@
 			(type default)
 		)
 		(uuid "d9c25571-86e6-4a01-ae2a-a9acb912bfb8")
-	)
-	(wire
-		(pts
-			(xy 171.45 278.13) (xy 176.53 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dafa78e4-467b-42bd-a82f-dd5fb5c28a1a")
 	)
 	(wire
 		(pts
@@ -8866,28 +8814,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 151.13 275.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0546e935-f6b8-4849-8cdf-00158730fe54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6833 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape input)
 		(at 391.16 78.74 0)
@@ -9143,28 +9069,6 @@
 		(uuid "5ee0a5eb-7421-46ff-b8c3-5b54ed913f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.1428 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 151.13 273.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61ca49cb-6a8c-4ce8-939d-8ca645252413")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6228 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,84 +11076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV73333PDBV")
-		(at 335.28 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31c777bb-8aa8-473a-9a2c-2717d52f2407")
-		(property "Reference" "U8"
-			(at 335.28 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV73333PDBV"
-			(at 335.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 335.28 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
-			(at 335.28 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 335.28 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6a1db4b9-8394-4742-852b-8071d8819fb9")
-		)
-		(pin "2"
-			(uuid "1f30d41f-7b1b-499e-bc02-6089d0b5eb9c")
-		)
-		(pin "3"
-			(uuid "398b9d39-df4f-45ef-ada7-86379a0a6640")
-		)
-		(pin "1"
-			(uuid "0f4aeff6-48aa-4313-8f22-97c0160a153a")
-		)
-		(pin "5"
-			(uuid "ee91c5d2-1113-4d08-9cd6-e3bee93db89e")
-		)
-		(instances
-			(project "air-quality-station"
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 26.67 267.97 90)
 		(unit 1)
@@ -11317,73 +11143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 267.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "333f8f9a-1364-41e3-8931-126a253cc04a")
-		(property "Reference" "#PWR018"
-			(at 157.48 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 267.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42f88c1c-a816-4e4e-a703-57835fc5b3e5")
-		)
-		(instances
-			(project "air-quality-station"
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 354.33 208.28 0)
 		(unit 1)
@@ -11444,84 +11203,6 @@
 			(project "air-quality-station"
 				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV73333PDBV")
-		(at 46.99 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "347ebcef-6232-4ffa-83f8-6cbb5f43206f")
-		(property "Reference" "U4"
-			(at 46.99 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV73333PDBV"
-			(at 46.99 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 46.99 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "fa6fc86b-cc0c-44f9-a9a4-33ccbde04a34")
-		)
-		(pin "2"
-			(uuid "b99e78ba-e852-41b4-8072-cea4fa031fde")
-		)
-		(pin "3"
-			(uuid "ed7b261a-103d-40d2-9a0b-f4fec50ef605")
-		)
-		(pin "1"
-			(uuid "7ecea355-20d9-4eb5-85bd-72c58b07f051")
-		)
-		(pin "5"
-			(uuid "d5c31a3a-6523-46f3-a01d-f5b859388ec6")
-		)
-		(instances
-			(project ""
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11927,73 +11608,6 @@
 			(project "air-quality-station"
 				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 279.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41fc9698-02c0-4dc3-80ac-9ea7fa7a84e7")
-		(property "Reference" "#PWR014"
-			(at 153.67 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 279.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fc2e6ad-1e6e-4bd3-803b-8b06db19cf9d")
-		)
-		(instances
-			(project "air-quality-station"
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12908,7 +12522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 55.626 161.798 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12955,6 +12569,84 @@
 			(project "EnvStation"
 				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 342.9 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3e61bf-dd71-4fe0-abe7-534a67c9e4e0")
+		(property "Reference" "U5"
+			(at 342.9 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 342.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 342.9 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 342.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 342.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d43d924a-f220-4567-a4a5-e6b18d12315e")
+		)
+		(pin "1"
+			(uuid "642b9f78-0ed4-4ec7-b31a-54a00a56d62e")
+		)
+		(pin "3"
+			(uuid "eee4487e-7807-4cb3-9c76-64a1aa9e897b")
+		)
+		(pin "4"
+			(uuid "d4d1bccd-a0d3-4028-933e-15e268664132")
+		)
+		(pin "5"
+			(uuid "6eafd9ba-4284-4880-bea5-783e6c74c346")
+		)
+		(instances
+			(project "air-quality-station"
+				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15762,6 +15454,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 335.28 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99096293-7c2c-4386-8b37-186aa7b1eaa8")
+		(property "Reference" "U7"
+			(at 335.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 335.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 335.28 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 335.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 335.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c412f1e-c38c-4b22-8796-f2eaf6b99871")
+		)
+		(pin "1"
+			(uuid "fd9233e0-3aa4-4637-bd81-1401fe236eed")
+		)
+		(pin "3"
+			(uuid "5157dcd0-9932-4255-88d4-f0532796bc7f")
+		)
+		(pin "4"
+			(uuid "85363164-1614-4c3d-bd3a-c4f0e7afc4c8")
+		)
+		(pin "5"
+			(uuid "1ed77bb5-35e4-466c-b05a-345c9f6c59dd")
+		)
+		(instances
+			(project "air-quality-station"
+				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 46.99 196.85 0)
 		(unit 1)
@@ -15922,6 +15692,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -16098,84 +15869,6 @@
 			(project "air-quality-station"
 				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV73333PDBV")
-		(at 342.9 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0162f4e-8a57-49fc-b0c0-1178a1fdaa1e")
-		(property "Reference" "U7"
-			(at 342.9 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV73333PDBV"
-			(at 342.9 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 342.9 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
-			(at 342.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 342.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "806602ee-37ee-4467-845a-0ce6f0061809")
-		)
-		(pin "2"
-			(uuid "1641ad33-a62e-4549-8800-a194e089743e")
-		)
-		(pin "3"
-			(uuid "1376318c-fc2c-4263-9679-7bb109d0d3b2")
-		)
-		(pin "1"
-			(uuid "69deadf2-e5af-41be-a70b-becd9eea1b89")
-		)
-		(pin "5"
-			(uuid "a0664197-3a37-47f9-8d59-b5a8dea4541b")
-		)
-		(instances
-			(project "air-quality-station"
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -16822,7 +16515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 22.606 163.068 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16869,73 +16562,6 @@
 			(project "EnvStation"
 				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 151.13 270.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb3d0e60-5fbb-457f-9362-1030caa0d543")
-		(property "Reference" "#PWR020"
-			(at 147.32 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_SEN"
-			(at 154.94 270.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.13 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "349e7429-ba88-43e2-b7d0-849dd1de0042")
-		)
-		(instances
-			(project "air-quality-station"
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17075,7 +16701,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 269.24 180)
+		(at 176.53 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17083,7 +16709,7 @@
 		(dnp no)
 		(uuid "c9c24eaf-f938-4d6a-ac87-607a3f86d72c")
 		(property "Reference" "C30"
-			(at 179.832 267.97 90)
+			(at 173.228 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17092,7 +16718,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 180.086 275.59 90)
+			(at 172.974 262.89 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17102,7 +16728,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 175.5648 265.43 0)
+			(at 177.4952 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17491,6 +17117,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 46.99 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7f28d0c-b4ed-4438-873d-552c429941de")
+		(property "Reference" "U4"
+			(at 46.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 46.99 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 46.99 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 46.99 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d601498-8b3d-4aa8-8c81-87f6ead8d512")
+		)
+		(pin "1"
+			(uuid "371538e3-1188-4945-84c9-323508b9260f")
+		)
+		(pin "3"
+			(uuid "6e837ffc-9590-43f1-8d76-3ce5bcfd8a17")
+		)
+		(pin "4"
+			(uuid "9cafe54b-2fe2-4ae2-ae13-c5847e7bac03")
+		)
+		(pin "5"
+			(uuid "63128640-17d7-4ccc-85a1-7509da90ff47")
+		)
+		(instances
+			(project ""
+				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Espressif:ESP32-C6-MINI-1/U")
 		(at 363.22 99.06 0)
 		(unit 1)
@@ -17778,76 +17482,6 @@
 			(project "air-quality-station"
 				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd3b27f6-1ac7-4783-9885-e70208d39516")
-		(property "Reference" "C31"
-			(at 168.148 270.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 167.894 262.89 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 172.4152 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bf65139-8a19-4053-8435-ec1347bdce61")
-		)
-		(pin "2"
-			(uuid "1ed20825-b3a6-4fe1-b7df-c76d56c43b33")
-		)
-		(instances
-			(project "air-quality-station"
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -18471,84 +18105,6 @@
 			(project "air-quality-station"
 				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_01x04_Pin_1")
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 146.05 270.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b6377a-5c44-415a-b90e-d43935c524ad")
-		(property "Reference" "J7"
-			(at 146.685 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C_4"
-			(at 146.685 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 146.05 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 146.05 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a3d60958-df91-4242-8574-0cacc4369548")
-		)
-		(pin "4"
-			(uuid "5adcf298-4a02-4635-ba29-609da6177285")
-		)
-		(pin "2"
-			(uuid "ea7e6f9e-7ddb-4894-a1cd-8f10d82c6fb9")
-		)
-		(pin "1"
-			(uuid "e7223f48-6c83-4ceb-a3f7-8664f827113c")
-		)
-		(pin "MP"
-			(uuid "ac156868-9084-4366-956e-458f4aae57a8")
-		)
-		(instances
-			(project "air-quality-station"
-				(path "/ccdd46f8-f57e-4a5f-acc2-b5ac3217014b"
-					(reference "J7")
 					(unit 1)
 				)
 			)
