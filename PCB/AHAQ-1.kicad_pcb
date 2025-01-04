@@ -268,7 +268,7 @@
 		)
 		(path "/d8602a47-635e-4f21-bbb4-913136fd61e2")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -6.8 7.7)
@@ -1196,7 +1196,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ed2ddd2d-623a-45af-888e-e6a555e215f1")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -1339,6 +1339,474 @@
 			)
 		)
 	)
+	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(layer "F.Cu")
+		(uuid "1aa2e6ab-d2fe-4689-b007-52992b34ffc4")
+		(at 2.475 2.225)
+		(descr "JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
+		(tags "connector JST PH side entry")
+		(property "Reference" "J6"
+			(at 1 -2.9 0)
+			(layer "F.SilkS")
+			(uuid "6886d162-8368-4de2-a40c-a9f52421921b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FAN"
+			(at 1 4 0)
+			(layer "F.Fab")
+			(uuid "4cd52b42-bc4a-4e7b-9db8-b9d581bf8c71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c39a1f32-347d-4412-b5d4-65137425948b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64909467-4695-4d24-9fb1-6512e1290234")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f991e737-b042-4e18-86e1-637d77758e47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/0582eee0-0354-4a8f-b506-d3364349caad")
+		(sheetname "Root")
+		(sheetfile "AHAQ-1.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.36 -2.11)
+			(end -2.36 -0.86)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "79f9827a-7b52-4603-a6aa-fbb7857829f5")
+		)
+		(fp_line
+			(start -2.06 -1.81)
+			(end -2.06 2.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "34041e67-fd70-4918-9b2d-23983015a3bf")
+		)
+		(fp_line
+			(start -2.06 -0.5)
+			(end -1.45 -0.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab43e20c-2d8a-462c-9492-3087f002853f")
+		)
+		(fp_line
+			(start -2.06 0.8)
+			(end -1.45 0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6d2e4d04-363d-47ce-b0b0-f1629a5345d8")
+		)
+		(fp_line
+			(start -2.06 2.91)
+			(end 4.06 2.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5417f215-9a87-4b7c-90c9-5f74eb607697")
+		)
+		(fp_line
+			(start -1.45 -1.2)
+			(end -1.45 2.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "abd3a169-31b1-4ef0-99b4-48bce8480a9d")
+		)
+		(fp_line
+			(start -1.45 2.3)
+			(end 3.45 2.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bf1e5efa-b7b7-4f8e-9a88-fdd97023635a")
+		)
+		(fp_line
+			(start -1.11 -2.11)
+			(end -2.36 -2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c718f2db-efd3-4911-87ec-f0b22cdcddee")
+		)
+		(fp_line
+			(start -0.6 -2.01)
+			(end -0.6 -1.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0258e33d-045b-48ac-82ac-1878707ab9cd")
+		)
+		(fp_line
+			(start -0.3 -2.01)
+			(end -0.6 -2.01)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "523ef83f-4c68-4574-b36b-fa3ef5b2e430")
+		)
+		(fp_line
+			(start -0.3 -1.91)
+			(end -0.6 -1.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "030c230b-bb84-4f17-89a9-bc028c6bd104")
+		)
+		(fp_line
+			(start -0.3 -1.81)
+			(end -0.3 -2.01)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "893133ed-2ef6-4e3d-8319-2a4f917a1ea5")
+		)
+		(fp_line
+			(start 0.5 -1.81)
+			(end 0.5 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "650ed565-3d4e-47c2-b2bd-de3846b23039")
+		)
+		(fp_line
+			(start 0.5 -1.2)
+			(end -1.45 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bed2e63f-f7f9-4d4a-8d66-8e6a9258e701")
+		)
+		(fp_line
+			(start 0.9 1.8)
+			(end 1.1 1.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb2ced7f-75e7-4253-b4de-4166607a7b65")
+		)
+		(fp_line
+			(start 0.9 2.3)
+			(end 0.9 1.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89b65ac7-7a95-4a15-82ba-330273e14760")
+		)
+		(fp_line
+			(start 1 2.3)
+			(end 1 1.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cdeec1a0-6d7a-48ce-ae58-cf736408bf2e")
+		)
+		(fp_line
+			(start 1.1 1.8)
+			(end 1.1 2.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8cd74466-6e30-478b-8efd-51ca389e77ff")
+		)
+		(fp_line
+			(start 1.5 -1.2)
+			(end 1.5 -1.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2dcde4e2-8460-4ecf-b179-00dcf33d5f54")
+		)
+		(fp_line
+			(start 3.45 -1.2)
+			(end 1.5 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a9713d8-7844-4f5d-9460-85da173fa2be")
+		)
+		(fp_line
+			(start 3.45 2.3)
+			(end 3.45 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "71dfe275-2239-4a29-b77e-fe8d14893b2a")
+		)
+		(fp_line
+			(start 4.06 -1.81)
+			(end -2.06 -1.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef8a2568-36a4-40fc-90d8-d2c83056af3d")
+		)
+		(fp_line
+			(start 4.06 -0.5)
+			(end 3.45 -0.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "91653bea-35b9-42d6-a7d1-2134591a271e")
+		)
+		(fp_line
+			(start 4.06 0.8)
+			(end 3.45 0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1ad378af-c90a-4f73-8ed4-83fb00053105")
+		)
+		(fp_line
+			(start 4.06 2.91)
+			(end 4.06 -1.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8ff408dd-8950-4b4a-b114-d5b239d1f8dd")
+		)
+		(fp_line
+			(start -2.45 -2.2)
+			(end -2.45 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "15ec2ed9-caf9-4fcf-8b33-71db971758b7")
+		)
+		(fp_line
+			(start -2.45 3.3)
+			(end 4.45 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "84cdb083-96cb-4ded-8e17-b3b970f93f84")
+		)
+		(fp_line
+			(start 4.45 -2.2)
+			(end -2.45 -2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0800bbf1-e3b2-412b-955d-40ef361f0c37")
+		)
+		(fp_line
+			(start 4.45 3.3)
+			(end 4.45 -2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "62e17d8c-78ad-4aef-9dbe-c425206c09e1")
+		)
+		(fp_line
+			(start -2.36 -2.11)
+			(end -2.36 -0.86)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2df22242-fb2b-48ba-9155-d0dab8e7992c")
+		)
+		(fp_line
+			(start -1.95 -1.7)
+			(end -1.95 2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c5ec6c17-e486-4b50-b443-b9bf1c67686c")
+		)
+		(fp_line
+			(start -1.95 2.8)
+			(end 3.95 2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c897899b-bf6d-4d18-af93-8e0dfc4e491f")
+		)
+		(fp_line
+			(start -1.11 -2.11)
+			(end -2.36 -2.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "424cc7d6-7d87-4569-ab68-5aa051b18717")
+		)
+		(fp_line
+			(start 3.95 -1.7)
+			(end -1.95 -1.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20c4a02a-7415-436c-85c5-d83c21e3c9fb")
+		)
+		(fp_line
+			(start 3.95 2.8)
+			(end 3.95 -1.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be6d05c3-77b9-4704-b731-c0d0b8e7a926")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1 1.5 0)
+			(layer "F.Fab")
+			(uuid "a74a3e18-bf54-4ea8-b199-05c924ab473a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.2 1.75)
+			(drill 0.75)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.208333)
+			(net 1 "GND")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "4997d765-e38f-418c-a981-eaed4254253a")
+		)
+		(pad "2" thru_hole oval
+			(at 2 0)
+			(size 1.2 1.75)
+			(drill 0.75)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "+3V3_MCU")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "c0ccc876-7d8f-4a05-9af4-f2a40f2c5335")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-666"
 		(layer "F.Cu")
 		(uuid "1f861536-db56-4632-bad8-e3d4607b0ec4")
@@ -1410,7 +1878,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/54ad8955-99a0-4fa9-8d86-191374a63747")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 -0.99)
@@ -1700,7 +2168,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/f5638238-432c-4e5f-b23f-bd7567769cbb")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.67 -0.1)
@@ -2079,7 +2547,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/683dcad0-4fc7-4b6c-a1a1-40d79372425b")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2293,7 +2761,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cb9366e4-b88a-4b56-8146-bc5f30dce676")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2507,7 +2975,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/85226bcb-8e2d-44ca-8d89-3dddb2a74656")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -2650,6 +3118,268 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "3eb0bf22-4255-4780-b29a-24e20cd440a2")
+		(at 39.32 59)
+		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+		(tags "diode")
+		(property "Reference" "D1"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "b76e97e7-3b13-4e5e-9a75-4f3f86374603")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a9df1f0-4a68-4d6c-a818-7f98a2f017a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c87c77d6-e34a-4c86-8e8d-3e7c617803db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b69b3b2-d240-4502-856e-d2568395d7ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe917bac-8fb8-4e80-b2f4-991896576bf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a55caf5-0fad-4f2c-b91e-19a2ee267d6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9191af-de2b-450c-b3a5-7ea8893d3900")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/6fe9cc97-6313-43d6-bb4e-1c4b251013b2")
+		(sheetname "Root")
+		(sheetfile "AHAQ-1.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.485 -0.735)
+			(end -1.485 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "865549dd-303d-4185-8a0f-a06fd5ac0d62")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 0.8 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8026f308-53b3-4a6e-9c07-d12ffb6d7e5e")
+		)
+		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0d3f94e7-e6ab-495f-9d1d-df68e73ebcab")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e709b3ff-6ce9-435b-a3e7-3a40b182689a")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb406cda-e9a5-47cf-a56b-3c1ff5aaf6b7")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dde939ac-0788-49b2-8f8e-3f35badd6393")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6e6ac9d6-f536-4445-aa59-cfb089059ee9")
+		)
+		(fp_line
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "64e406a6-413d-4616-983b-32b8b891aad1")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd873b02-ad42-4cb7-bb6c-1ef5370b4a3f")
+		)
+		(fp_line
+			(start -0.5 -0.4)
+			(end -0.8 -0.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf0fda88-d0d5-48e0-9945-789a83f390f2")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end -0.5 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "65c02f5b-dd20-4d50-9e7f-b6ab786bfe21")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cb59c9cd-fba3-45b4-89d4-f4fbf91a8093")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8441eeeb-0b7e-4d86-97e3-08b2625d697b")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.7875 0)
+			(size 0.875 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 4 "+3V3_MCU")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "db3c0339-c3fa-483e-ad74-becf253ae278")
+		)
+		(pad "2" smd roundrect
+			(at 0.7875 0)
+			(size 0.875 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "29ca73fb-41ab-4df3-bd2b-5c9e65d4166e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 		(layer "F.Cu")
 		(uuid "4337dfc1-b587-4770-8059-0eb214780340")
@@ -2722,7 +3452,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/258c4f2a-0851-4599-aba3-72e1531433dd")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -2836,7 +3566,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d9dae607-be27-47bb-8d19-ba051ed75f23")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -3050,7 +3780,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/812c8368-6b6a-4a4f-98ef-d07c2e6ef036")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.11 0.715)
@@ -3366,7 +4096,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f75aaea0-86fc-4921-a056-9940edbfe30e")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -3581,7 +4311,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/6e26504b-225d-4656-a70f-a4fb157a3586")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3695,7 +4425,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e6a24e3-908a-41b4-96e3-452267fbb99b")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -3910,7 +4640,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/648dbbdf-a72d-457a-a287-4f91c33965aa")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4024,7 +4754,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f134a35a-a471-46cc-bb19-43c7b48e86bd")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.11 0.715)
@@ -4340,7 +5070,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d4cc0894-c049-4d2a-8684-873474e126a6")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -4554,7 +5284,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e77b67e5-538e-431c-ac0d-1eefac36f8be")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.61 -1.785)
@@ -4858,7 +5588,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8d57d157-37a3-4841-b708-db1906f035cb")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -5072,7 +5802,7 @@
 		(property ki_fp_filters "Sensirion*SCD4?*")
 		(path "/abe4733f-a2d0-47c5-ab1b-4f0130e9bd3b")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 5.16 5.16)
@@ -5547,7 +6277,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fd35201c-1757-44dd-88dd-50dc0d20d60a")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -5761,7 +6491,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fcfcb469-ebce-45b2-a362-73c79f1fe2a5")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -5975,7 +6705,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0a78a465-44e3-4e2f-bbdf-45ce20043809")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -6189,7 +6919,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/7f1c67c4-6184-4beb-a94e-62b9f524a030")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 7.65 4.5)
@@ -6797,7 +7527,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/98fb38d8-fc88-49fe-ab85-1c02d348995e")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -7010,7 +7740,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6f19aa31-561e-46c2-884d-e9046efcb5ea")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 5.485 1.86)
@@ -7515,6 +8245,220 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "e43bf509-8056-4d7c-b127-0a8f7da1dfef")
+		(at 42.05 54.5)
+		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C30"
+			(at 0 -1.68 0)
+			(layer "F.SilkS")
+			(uuid "4b1b1e52-0d59-42d5-a1c5-e958e0b25339")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 0 1.68 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78f417b6-fe00-48df-8b7d-aa84426bda36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fba9e04d-0d32-4e97-87ec-1cef31f3a11d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "598f6fe8-44ec-410e-af44-c148e80b2130")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "808ef4d8-6b8c-4bab-a223-31dadfd16ae6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4b704925-7ac6-4985-9033-8cfc7083580f")
+		(sheetname "Root")
+		(sheetfile "AHAQ-1.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39a1f856-60b7-42c2-aca8-b249dc4da857")
+		)
+		(fp_line
+			(start -0.261252 0.735)
+			(end 0.261252 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "48c979e0-0909-4b39-a640-1199ff7e1c4a")
+		)
+		(fp_line
+			(start -1.7 -0.98)
+			(end 1.7 -0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "37f1a8da-f060-489b-8972-9e880d3f9a11")
+		)
+		(fp_line
+			(start -1.7 0.98)
+			(end -1.7 -0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fa0c628f-1e4f-4bcc-9b98-79aee0d93256")
+		)
+		(fp_line
+			(start 1.7 -0.98)
+			(end 1.7 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "447b6d87-dc7c-4739-944c-659806a65d49")
+		)
+		(fp_line
+			(start 1.7 0.98)
+			(end -1.7 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11ecaa0c-913c-4f82-aa65-9436cdc88ec4")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6fdd52b9-e896-4ab8-8004-6189d11ea1d4")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a3e8845-4c71-4fcf-9fba-b1b223bbea2a")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b4758a00-7376-42d8-b9d6-04f7697a0812")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3ca24802-4cc0-4447-ac0a-bb522fdae170")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5cbcf52d-b830-4a41-88bc-9321d37c96dc")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.95 0)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 4 "+3V3_MCU")
+			(pintype "passive")
+			(uuid "c90af667-202a-44e7-a227-9408abec98d4")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "de2587dd-f3c0-4f6e-9212-ea5417030d1c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e533a6b2-1ae7-4212-95f8-f9d619383f20")
@@ -7586,7 +8530,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/75f2982a-8c97-4b94-bb02-c78a328d5153")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -7800,7 +8744,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/026ece75-48fc-42bc-9271-fa9d2d4c9ff5")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.675 -0.875)
@@ -8003,7 +8947,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0aa41075-d342-46e1-8504-746f76b81edc")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -8217,7 +9161,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cf0852fa-ee89-4873-bfa2-6bc9f8fbeb01")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -8431,7 +9375,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1f8c5643-c6e9-4506-b82a-c788c076da86")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -8645,7 +9589,7 @@
 		(property ki_fp_filters "Bosch*LGA*2x2.5mm*P0.65mm*")
 		(path "/06b4851a-e935-4f82-9279-e2b0365173b5")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.2 -1.1)
@@ -8990,7 +9934,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/59052a99-5196-4fa5-8b6f-7d089d788aa4")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.399622 -0.56)
@@ -9212,7 +10156,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/efb07868-7cff-4363-b27c-61d7ba8bac12")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -9432,7 +10376,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f4d0bd0-112e-4f46-b29a-ab22b36258f6")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -9652,7 +10596,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8b4a8e3-c91b-43d4-8d05-9da4d13b8f7c")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -9872,7 +10816,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/45ca77cc-cc7e-46a1-919a-fa71d7e6d648")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.65 1)
@@ -10162,7 +11106,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a768ba2b-77b0-41aa-91a7-56e5a62c07c1")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -10370,7 +11314,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/40bd41d2-bfef-4153-87a7-ce6dc9d5e8c3")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -10590,7 +11534,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cfcf1c1c-884c-45eb-a130-49542418d84c")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -10795,7 +11739,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/d7f28d0c-b4ed-4438-873d-552c429941de")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -1.56)
@@ -11089,7 +12033,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/35972e0c-8b9e-4d71-a53e-873466aa7726")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -11309,7 +12253,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/420a8b7f-47ac-4ec1-8320-8a81aafca018")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.65 -1)
@@ -11599,7 +12543,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/42b71673-8507-40d5-bf8f-cb856a8fb506")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -11819,7 +12763,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7c18bd2a-4cf7-4892-b940-abd4d0ad9faf")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -12039,7 +12983,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/59a314b0-b512-4998-b2c9-da066b4a565b")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -12259,7 +13203,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/09f447e6-9c9f-4992-97f2-f8f3e5c576af")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -12479,7 +13423,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8219cbf6-bbee-44f4-8cd5-273e771c5b04")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -12699,7 +13643,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/50d4dd5c-6a4b-4a5f-98c3-d24cc11ffdf2")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.65 1)
@@ -12989,7 +13933,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/12c669e5-0f84-4b8e-8d5a-c44eeb2701fc")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -13206,7 +14150,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/99096293-7c2c-4386-8b37-186aa7b1eaa8")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.8 -1.56)
@@ -13500,7 +14444,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f2c24dc-377c-4047-90dc-a1b928613bac")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -13720,7 +14664,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/67d77886-f401-44de-b265-13a987223b37")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -13940,7 +14884,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/609eb378-006d-45f0-88c3-475dd5eaff14")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -14160,7 +15104,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/72f1d79a-83e5-4826-9806-4d4db5272193")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -14380,7 +15324,7 @@
 		(property ki_fp_filters "SOT?323*")
 		(path "/10e66228-2c67-42ea-9683-172d9f04daec")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.73 1.16)
@@ -14651,7 +15595,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/5a3e61bf-dd71-4fe0-abe7-534a67c9e4e0")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.8 -1.56)
@@ -14945,7 +15889,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1d0f613d-a777-457e-be86-cc28a61d7ed6")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -15165,7 +16109,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9a08bf6f-20ac-4686-9436-19d605b7f0c1")
 		(sheetname "Root")
-		(sheetfile "air-quality-station.kicad_sch")
+		(sheetfile "AHAQ-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
